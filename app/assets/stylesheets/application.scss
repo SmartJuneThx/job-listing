@@ -169,3 +169,14 @@
 .login-help{
   font-size: 12px;
 }
+
+/* 修改 /jobs 页面字体颜色 */
+#jobsnav a {
+  color: #666;
+  display: list-item;
+}
+
+/* 调整邮箱字体为小写 */
+.navbar-default .nav .dropdown .dropdown-toggle {
+    text-transform: lowercase;
+}
